@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxview.WelcomeSignInController">
+   <children>
+      <AnchorPane layoutX="-7.0" prefHeight="41.0" prefWidth="400.0" style="-fx-background-color: #42655a;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Label layoutX="115.0" layoutY="110.0" prefHeight="28.0" prefWidth="170.0" text="WELCOME TO  " wrapText="true">
+         <font>
+            <Font name="Tahoma Bold" size="22.0" />
+         </font>
+      </Label>
+      <Pane layoutX="47.0" layoutY="216.0" prefHeight="174.0" prefWidth="317.0" style="-fx-background-color: grey; -fx-background-radius: 0px 30px 0px 30px;">
+         <children>
+            <Button layoutX="53.0" layoutY="103.0" mnemonicParsing="false" onAction="#studentSignIn" text="Student">
+               <font>
+                  <Font name="Tahoma Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button layoutX="192.0" layoutY="104.0" mnemonicParsing="false" onAction="#landLordSignIn" text="Landlord">
+               <font>
+                  <Font name="Tahoma Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label layoutX="119.0" layoutY="48.0" text="SIGN IN AS :">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="20.0" layoutY="152.0" prefHeight="28.0" prefWidth="360.0" text="HOSTEL MANAGEMENT SYSTEM" wrapText="true">
+         <font>
+            <Font name="Tahoma Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="439.0" prefHeight="17.0" prefWidth="147.0" text="Already have an account ?" />
+      <Button layoutX="217.0" layoutY="435.0" mnemonicParsing="false" onAction="#welcomeLogIn" style="-fx-background-radius: 10;" text="Log In" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="496.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxview.PaymentController">
+   <children>
+      <AnchorPane prefHeight="33.0" prefWidth="500.0" style="-fx-background-color: #42655a;">
+         <children>
+            <Label layoutX="25.0" layoutY="11.0" prefHeight="20.0" prefWidth="189.0" text="Hostel Management System">
+               <font>
+                  <Font name="System Bold Italic" size="14.0" />
+               </font>
+               <padding>
+                  <Insets top="-5.0" />
+               </padding>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutY="33.0" prefHeight="41.0" prefWidth="500.0" style="-fx-background-color: #428063;">
+         <children>
+            <VBox prefHeight="41.0" prefWidth="110.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#book" prefHeight="35.0" prefWidth="110.0" stylesheets="@style.css" text="BACK">
+                     <VBox.margin>
+                        <Insets top="2.0" />
+                     </VBox.margin></Button>
+               </children>
+            </VBox>
+            <VBox layoutX="398.0" prefHeight="41.0" prefWidth="100.0" />
+         </children></AnchorPane>
+      <AnchorPane layoutY="74.0" prefHeight="423.0" prefWidth="500.0">
+         <children>
+
+            <Label layoutX="42.0" layoutY="169.0" prefHeight="17.0" prefWidth="80.0" text="M-PESA NO :" />
+            <TextField layoutX="148.0" layoutY="165.0" prefHeight="25.0" prefWidth="207.0" promptText="Mpesa Number" />
+            <TextField layoutX="148.0" layoutY="223.0" prefHeight="25.0" prefWidth="207.0" promptText="Bank NO" />
+            <Label layoutX="42.0" layoutY="227.0" prefHeight="17.0" prefWidth="67.0" text="BANK NO :" />
+            <AnchorPane layoutX="151.0" layoutY="273.0" prefHeight="66.0" prefWidth="200.0" />
+            <Label layoutX="189.0" layoutY="42.0" prefHeight="17.0" prefWidth="110.0" text="PAYMENT METHOD" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

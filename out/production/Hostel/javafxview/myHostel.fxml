@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="496.0" prefWidth="841.0" styleClass="root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxview.MyHostelController">
+   <children>
+      <AnchorPane prefHeight="36.0" prefWidth="841.0" style="-fx-background-color: #42655a;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="58.0" layoutY="11.0" prefHeight="17.0" prefWidth="256.0" text="Hostel Management System">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+               <padding>
+                  <Insets top="-5.0" />
+               </padding>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutY="75.0" opacity="0.55" prefHeight="51.0" prefWidth="841.0" style="-fx-background-color: #86ff7c;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="53.0" layoutY="17.0" prefHeight="17.0" prefWidth="223.0" text="Hostels Present :">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="162.0" layoutY="35.0" prefHeight="43.0" prefWidth="841.0" style="-fx-background-color: #428063;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button layoutX="21.0" layoutY="5.0" mnemonicParsing="false" onAction="#landlordHome" prefHeight="36.0" prefWidth="97.0" stylesheets="@style.css" text="HOME" AnchorPane.leftAnchor="0.0" />
+            <Button layoutX="104.0" layoutY="5.0" mnemonicParsing="false" onAction="#createHostel" prefHeight="36.0" prefWidth="103.0" stylesheets="@style.css" text="CREATE HOSTEL" />
+            <Button layoutX="762.0" layoutY="5.0" mnemonicParsing="false" onAction="#welcomeLogin" prefHeight="36.0" prefWidth="89.0" stylesheets="@style.css" text="LOGOUT" AnchorPane.rightAnchor="0.0" />
+            <Button layoutX="221.0" layoutY="4.0" mnemonicParsing="false" onAction="#editHostel" prefHeight="36.0" prefWidth="97.0" text="EDIT HOSTEL" />
+         </children></AnchorPane>
+      <AnchorPane layoutY="126.0" prefHeight="372.0" prefWidth="841.0" />
+   </children>
+</AnchorPane>
